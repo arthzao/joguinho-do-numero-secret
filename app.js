@@ -1,5 +1,5 @@
 let listaDeNumerosSorteadosToppe = [];
-let numeroLimite = 50;
+let numeroLimite = 25;
 mensagemInicialToppe();
 let numeroSecreto = gerarNumeroAleatorio();
 let numeroDeTentativas = 1;
@@ -25,7 +25,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function mensagemInicialToppe() {
 exibirTextoNaTela('h1', 'joguin do número secreto');
-exibirTextoNaTela('p', 'escolhe um número entre 1 e 50 por gentileza meu patrão?');
+exibirTextoNaTela('p', 'escolhe um número entre 1 e 25 por gentileza meu patrão?');
     };
 
 function verificarChute() {
