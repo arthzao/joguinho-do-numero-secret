@@ -24,7 +24,7 @@ function exibirTextoNaTela(tag, texto) {
 };
 
 function mensagemInicialToppe() {
-exibirTextoNaTela('h1', 'joguin do número secreto');
+exibirTextoNaTela('h1', 'joguin do número çikret');
 exibirTextoNaTela('p', 'escolhe um número entre 1 e 50 por gentileza meu patrão?');
     };
 
